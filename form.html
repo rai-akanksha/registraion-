@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<h2>Registraion Form</h2>
+		<div class="form.container">
+			<form action="insert.php" method="POST">
+				<div class="input-name">
+					<i class="fa fa-user user"></i>
+					<input type="text" placeholder="First Name" required class="name">
+					<span>
+
+						<i class="fa fa-user user"></i>
+					    <input type="text" placeholder="Last Name" required class="name">
+					</span>
+				</div>
+
+				<div class="input-name">
+					<i class="fa fa-envelope email"></i>
+					<input type="email" placeholder="email" required class="text-name">
+				</div>
+				<div class="input-name">
+					<i class="fa fa-lock lock"></i>
+				    <input type="password" placeholder="password" required class="text-name">
+				</div>
+				<div class="input-name">
+
+					<i class="fa fa-lock lock"></i>
+					<input type="password" placeholder="Confirm Password" required class="text-name">
+				</div>
+				<div class="input-name">
+					
+				    <input type="radio" name="gender" required class="radio.button">
+				    <label style="margin-right: 25px;">Male</label>
+				    <input type="radio" name="gender" required class="radio.button">
+				    <label>Female</label>
+				</div>
+				<div class="input-name">
+
+					<i class="fa fa-calendar calendar"></i>
+				    <input type="DOB" placeholder="DOB" required class="text-name" />
+			    </div>
+			    <div class="input-name">
+			    	<input type="Checkbox" id="cb" required class="check-button">
+			    	<label for="cb" class="check">I accept the terms and conditions</label>
+			    </div>
+			    <div class="input-name">
+			    	<a href="file:///C:\test\newform.html">
+			    		<input type="register" class="button" value="Register">	
+
+			    	    
+			    	</a>
+    		    </div>
+				
+			</form>
+		</div>
+	</div>
+<?php 
+$con=mysqli_connect(?>
+
+</body>
+</html>
